@@ -167,6 +167,7 @@ public class AddEmployee extends CommonMethods{
 			listmap.add(map);
 		}
 		System.out.println(listmap);
+		book.close();
 
 		return listmap;
 	}

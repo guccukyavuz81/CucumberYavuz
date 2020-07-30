@@ -1,6 +1,6 @@
 
 Feature: Login
-@smoke @regression
+
 Scenario: Login
 Given ValidLogin
 Then invalidPasswordLogin
@@ -15,6 +15,7 @@ Scenario: Login with invalid credentials
    | Hello  | Syntax123! | Invalid credentials |
    |niaber  |fjfjfjffjkjgj|Invalid credentials|
    
+@smoke
 
  Scenario Outline: Login with invalid credentials with outline
  
@@ -25,4 +26,10 @@ Scenario: Login with invalid credentials
    | UserName | Password  | ErrorMessage    |
    | Admin  | Admin123  | Invalid credentials |
    | Hello  | Syntax123! | Invalid credentials |
-   |niaber  |fjfjfjffjkjgj|Invalid credentials| 
+   |niaber  |fjfjfjffjkjgj|Invalid credentials|
+   |Admin   |            |Password cannot be empty|
+   |        |jfkfkfjfjfjf|Username cannot be empty| 
+   
+   
+   
+   

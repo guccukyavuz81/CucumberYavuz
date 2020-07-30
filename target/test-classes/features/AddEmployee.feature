@@ -1,4 +1,4 @@
-@smoke @regression
+ @regression
 Feature: Add new Employee
  Background:
  Given user logins with valid admin credentials

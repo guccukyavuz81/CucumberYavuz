@@ -1,5 +1,5 @@
 Feature: Add employee using excel
-@Bu
+
 Scenario: Add employee using excel values
 
 Given user logins with valid admin credentials

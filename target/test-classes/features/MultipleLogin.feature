@@ -8,5 +8,5 @@ Then "<FirstName>" is successfully logged in
 Examples:
 |username|password   |FirstName|
 |Admin   |Hum@nhrm123|Admin    |
-|abd77   |Syntax123! |Abdullah | 
+|Nckllvzzirxcjjcmn8|Mjsjfdix12$|Fatih | 
   

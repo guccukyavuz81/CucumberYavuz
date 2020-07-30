@@ -8,6 +8,7 @@ Background:
   And user click on save button
   Then "<FirstName>"  "<LastName>" is added successfully
   
+  
   Examples:
   |FirstName   |LastName   |
   |Nectxzijif  |Koppyxul   |

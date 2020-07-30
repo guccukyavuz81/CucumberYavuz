@@ -33,9 +33,9 @@ public class DataTableInvalidLogin extends CommonMethods{
 	}
 	
 	@When("I enter invalid {string} and {string}")
-	public void i_enter_invalid_and(String username, String password) {
-	 loginpage.username.sendKeys(username);  
-	 loginpage.password.sendKeys(password);
+	public void i_enter_invalid_and(String kullaniciadi, String sifre) {   //any string works here as long as parameter matches the method
+	 loginpage.username.sendKeys(kullaniciadi);  
+	 loginpage.password.sendKeys(sifre);
 	 loginpage.btnLogin.click();
 	}
 
